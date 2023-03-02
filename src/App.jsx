@@ -1,5 +1,10 @@
+import Card from './component/card';
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="h-screen flex justify-center items-center bg-[#d6e2f0] px-6">
+      <Card />
+    </div>
+  );
 }
 
 export default App;
